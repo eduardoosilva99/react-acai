@@ -68,10 +68,10 @@ const Home = () => {
                 <h3 className="font-bold text-gray-800 text-xl mt-4">{produto.nome}</h3>
                 <p className="text-purple-600 font-black text-2xl mt-2">{produto.preco}</p>
                 <Link 
-                  to="/pedido" 
+                  to="/cardapio" 
                   className="inline-block mt-5 bg-purple-600 text-white px-6 py-3 rounded-2xl w-full font-bold hover:bg-purple-800 transition-colors shadow-md"
                 >
-                  Pedir Agora
+                  Ver Mais
                 </Link>
               </div>
             </SwiperSlide>

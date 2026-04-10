@@ -1,19 +1,19 @@
-/* Estilos para o slider do Swiper */
+/* Customização das setas do Slider */
 :root {
-  --swiper-theme-color: #7e22ce; /* Cor roxa (purple-700) */
-  --swiper-navigation-size: 30px; /* Tamanho das setas */
+  --swiper-theme-color: #7e22ce; /* Roxo do seu menu */
+  --swiper-navigation-size: 25px; /* Tamanho das setas */
 }
 
-/* Para as setas não ficarem grudadas na borda em telas pequenas */
+/* Deixa as setas mais visíveis com um fundo leve */
 .swiper-button-next, .swiper-button-prev {
-  width: 45px !important; /* Aumenta a largura do botão para acomodar a seta maior */
-  height: 45px !important; /* Aumenta a altura do botão para acomodar a seta maior */
-  background: rgba(255, 255, 255, 0.8); /* Fundo branco para destacar as setas */
-  border-radius: 50%; /* Deixa os botões redondos */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra para destacar os botões */
+  background-color: rgba(255, 0, 0, 0.7);
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .swiper-button-next:after, .swiper-button-prev:after {
-  font-size: 18px !important; /* Tamanho do ícone da seta */
-  font-weight: bold; /* Deixa a seta mais grossa */
+  font-size: 16px !important;
+  font-weight: bold;
 }
