@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-acai/static/css/main.bea1f565.css",
+    "main.js": "/react-acai/static/js/main.4e1fd90f.js",
+    "static/js/453.628f11fd.chunk.js": "/react-acai/static/js/453.628f11fd.chunk.js",
+    "index.html": "/react-acai/index.html",
+    "main.bea1f565.css.map": "/react-acai/static/css/main.bea1f565.css.map",
+    "main.4e1fd90f.js.map": "/react-acai/static/js/main.4e1fd90f.js.map",
+    "453.628f11fd.chunk.js.map": "/react-acai/static/js/453.628f11fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bea1f565.css",
+    "static/js/main.4e1fd90f.js"
+  ]
+}
